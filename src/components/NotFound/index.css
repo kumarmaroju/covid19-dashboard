@@ -1,0 +1,39 @@
+.not-found-container {
+  background: #161625;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.not-found-heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+.not-found-paragraph {
+  color: #94a3b8;
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 500px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .not-found-paragraph {
+    font-size: 17px;
+    width: 340px;
+  }
+}
+.not-found-home-btn {
+  background: #2563eb;
+  color: #ffffff;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+.not-found-image {
+  width: 300px;
+}

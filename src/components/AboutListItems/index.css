@@ -1,0 +1,11 @@
+.list-item-containers {
+  margin-bottom: 30px;
+}
+.question {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.answer {
+  color: #007bff;
+  font-family: 'Roboto';
+}

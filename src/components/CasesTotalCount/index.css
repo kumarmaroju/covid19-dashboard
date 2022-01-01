@@ -1,0 +1,167 @@
+.specific-confirmed-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .specific-confirmed-card {
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+}
+.specific-confirmed-heading {
+  color: #ff073a;
+  font-family: 'Roboto';
+}
+.specific-confirmed-count {
+  color: #ff073a;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .specific-confirmed-count {
+    font-size: 13px;
+  }
+}
+.specific-active-heading {
+  color: #007bff;
+  font-family: 'Roboto';
+}
+.specific-active-count {
+  color: #007bff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .specific-active-count {
+    font-size: 13px;
+  }
+}
+.specific-recovered-heading {
+  color: #28a745;
+  font-family: 'Roboto';
+}
+.specific-recovered-count {
+  color: #28a745;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .specific-recovered-count {
+    font-size: 13px;
+  }
+}
+.specific-deceased-heading {
+  color: #6c757d;
+  font-family: 'Roboto';
+}
+.specific-deceased-count {
+  color: #6c757d;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .specific-deceased-count {
+    font-size: 13px;
+  }
+}
+.confirmed:hover {
+  background: #331427;
+  border-radius: 10px;
+  width: 160px;
+}
+@media screen and (max-width: 768px) {
+  .confirmed:hover {
+    width: 100px;
+  }
+}
+.active:hover {
+  background: #132240;
+  border-radius: 10px;
+  width: 160px;
+}
+@media screen and (max-width: 768px) {
+  .active:hover {
+    width: 100px;
+  }
+}
+.recovered:hover {
+  background: #182829;
+  border-radius: 10px;
+  width: 160px;
+}
+@media screen and (max-width: 768px) {
+  .recovered:hover {
+    width: 100px;
+  }
+}
+.deceased:hover {
+  background: #212230;
+  width: 160px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .deceased:hover {
+    width: 100px;
+  }
+}
+.cases-counts-ul-containers {
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .cases-counts-ul-containers {
+    flex-wrap: wrap;
+    width: 86%;
+  }
+}
+.btn-styles {
+  background: none;
+  outline: none;
+  border: none;
+}
+.confirmed-tab-styles {
+  background: #331427;
+  width: 160px;
+  border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  .confirmed-tab-styles {
+    width: 100px;
+    margin-right: 30px;
+  }
+}
+.active-tab-styles {
+  background: #132240;
+  width: 160px;
+  border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  .active-tab-styles {
+    width: 100px;
+  }
+}
+.recovered-tab-styles {
+  background: #182829;
+  width: 160px;
+  border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  .recovered-tab-styles {
+    width: 100px;
+  }
+}
+.deceased-tab-styles {
+  background: #212230;
+  width: 160px;
+  border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  .deceased-tab-styles {
+    width: 100px;
+  }
+}

@@ -1,0 +1,40 @@
+.about-container {
+  background: #161625;
+  border: 1px solid #161625;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.about-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+}
+.last-updates {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.qa-paragraph {
+  color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.about-ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.loader-container {
+  background: #161625;
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

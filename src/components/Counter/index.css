@@ -1,0 +1,71 @@
+.confirmed-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .confirmed-card {
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+}
+.confirmed-heading {
+  color: #ff073a;
+  font-family: 'Roboto';
+}
+.confirmed-count {
+  color: #ff073a;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .confirmed-count {
+    font-size: 13px;
+  }
+}
+.active-heading {
+  color: #007bff;
+  font-family: 'Roboto';
+}
+.active-count {
+  color: #007bff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .active-count {
+    font-size: 13px;
+  }
+}
+.recovered-heading {
+  color: #28a745;
+  font-family: 'Roboto';
+}
+.recovered-count {
+  color: #28a745;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .recovered-count {
+    font-size: 13px;
+  }
+}
+.deceased-heading {
+  color: #6c757d;
+  font-family: 'Roboto';
+}
+.deceased-count {
+  color: #6c757d;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .deceased-count {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,10 @@
+.drop-down-styles {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  width: 220px;
+}
+@media screen and (max-width: 768px) {
+  .drop-down-styles {
+    width: 156px;
+  }
+}

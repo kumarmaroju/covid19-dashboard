@@ -1,0 +1,38 @@
+.table-item-container {
+  display: flex;
+}
+.state-name {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  width: 210px;
+  text-align: start;
+}
+.state-confirmed {
+  color: #ff073a;
+  font-family: 'Roboto';
+  width: 160px;
+  text-align: start;
+}
+.state-active {
+  color: #007bff;
+  font-family: 'Roboto';
+  width: 120px;
+  text-align: start;
+}
+.state-recovered {
+  color: #28a745;
+  font-family: 'Roboto';
+  width: 160px;
+  text-align: start;
+}
+.state-deceased {
+  color: #6c757d;
+  font-family: 'Roboto';
+  width: 140px;
+  text-align: start;
+}
+.state-population {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  text-align: start;
+}
